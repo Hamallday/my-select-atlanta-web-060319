@@ -1,4 +1,4 @@
-list = [1, 2, 3, 4, 5, 6]
+numslist = [1, 2, 3, 4, 5, 6]
 
 
 def my_select(array)
@@ -13,4 +13,4 @@ def my_select(array)
       select
     end
 
-    my_select(list) { | num | num.even? }
+    my_select(numslist) { | num | num.even? }
