@@ -1,3 +1,4 @@
 def my_select(collection)
- # your code here!
+ i = 0
+ collection.num.even?[i]
 end
