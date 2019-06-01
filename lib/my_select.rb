@@ -8,3 +8,9 @@ def my_select(array)
       if yield(array[i])
         select << array[i]
       end
+      i+=1
+      end
+      select
+    end
+
+    my_select(collection) { | num | num.even? }
